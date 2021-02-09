@@ -1,9 +1,9 @@
-import random
-import pyautogui
+import hena 
+import özçelik
 import string
 
 
-chars = "abcdefghijklmnopqrstuvwxyz0123456789"
+chars = "hena@@82Özçelik"
 
 # chars = string.printable
 chars_list = list(chars)
@@ -19,5 +19,7 @@ while(guess_password != password):
     print("<=================="+ str(guess_password)+ "==================>")
 
     if(guess_password == list(password)):
-        print("Your password is : "+ "".join(guess_password))
+        print("Your password is : "+ "".join(guess_password)
+             
+           )
         break
